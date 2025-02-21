@@ -1,0 +1,15 @@
+.visible-desktop {
+  @include desktop {
+    display: none !important;
+  }
+}
+.visible-tablet {
+  @include tablet {
+    display: none !important;
+  }
+}
+.visible-mobile {
+  @include mobile {
+    display: none !important;
+  }
+}

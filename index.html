@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/css/styles.css" />
+    <script src="./index.js" defer></script>
+    <title>lab2</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1 class="header__title">
+        Петров Кирилл Андреевич - Лабораторная работа №2
+      </h1>
+      <div class="header__pointer"></div>
+      <div class="header__basket">
+        <img
+          class="header__basket-icon"
+          src="./icons/basket.svg"
+          alt="Basket"
+        />
+        <span class="header__basket-count">0</span>
+      </div>
+    </header>
+    <main class="main">
+      <section class="product container">
+        <ul class="product__list">
+          <li class="product__item">
+            <div class="product__wrapper">
+              <div class="product__image">
+                <img src="./images/pizza.png" alt="pizza" width="250px" />
+              </div>
+              <span class="product__price">999</span>
+              <p class="product__text">Папирони</p>
+              <div class="product__buttons">
+                <button class="product__button">В корзину</button>
+                <button class="product__button-heart">
+                  <img
+                    class="product__icon-like"
+                    src="./icons/heart.svg"
+                    alt="Like"
+                  />
+                </button>
+                <button class="product__button-dislike">
+                  <img
+                    class="product__icon-dislike"
+                    src="./icons/dislike.svg"
+                    alt="Dislike"
+                  />
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="product__item visible-mobile">
+            <div class="product__wrapper">
+              <div class="product__image">
+                <img src="./images/pizza.png" alt="pizza" width="250px" />
+              </div>
+              <span class="product__price">999</span>
+              <p class="product__text">Папирони</p>
+              <div class="product__buttons">
+                <button class="product__button">В корзину</button>
+                <button class="product__button-heart">
+                  <img
+                    class="product__icon-like"
+                    src="./icons/heart.svg"
+                    alt="Like"
+                  />
+                </button>
+                <button class="product__button-dislike">
+                  <img
+                    class="product__icon-dislike"
+                    src="./icons/dislike.svg"
+                    alt="Dislike"
+                  />
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="product__item visible-tablet">
+            <div class="product__wrapper">
+              <div class="product__image">
+                <img src="./images/pizza.png" alt="pizza" width="250px" />
+              </div>
+              <span class="product__price">999</span>
+              <p class="product__text">Папирони</p>
+              <div class="product__buttons">
+                <button class="product__button">В корзину</button>
+                <button class="product__button-heart">
+                  <img
+                    class="product__icon-like"
+                    src="./icons/heart.svg"
+                    alt="Like"
+                  />
+                </button>
+                <button class="product__button-dislike">
+                  <img
+                    class="product__icon-dislike"
+                    src="./icons/dislike.svg"
+                    alt="Dislike"
+                  />
+                </button>
+              </div>
+            </div>
+          </li>
+          <li class="product__item visible-desktop">
+            <div class="product__wrapper">
+              <div class="product__image">
+                <img src="./images/pizza.png" alt="pizza" width="250px" />
+              </div>
+              <span class="product__price">999</span>
+              <p class="product__text">Папирони</p>
+              <div class="product__buttons">
+                <button class="product__button">В корзину</button>
+                <button class="product__button-heart">
+                  <img
+                    class="product__icon-like"
+                    src="./icons/heart.svg"
+                    alt="Like"
+                  />
+                </button>
+                <button class="product__button-dislike">
+                  <img
+                    class="product__icon-dislike"
+                    src="./icons/dislike.svg"
+                    alt="Dislike"
+                  />
+                </button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer container">
+      <div class="footer__buttons">
+        <button class="footer__button-increment">по возрастанию</button>
+        <button class="footer__button-diminution">по убыванию</button>
+        <button class="footer__button-initiall">исходный вариант</button>
+      </div>
+      <ul class="footer__list"></ul>
+    </footer>
+  </body>
+</html>
