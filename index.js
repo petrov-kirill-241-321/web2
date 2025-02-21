@@ -108,7 +108,9 @@ function createRandomNumberList() {
 }
 
 function getPointer(e) {
-  headerPointer.textContent = `X:${e.offsetX} Y:${e.offsetY}`;
+  headerPointer.textContent = `Тег: ${e.target.tagName.toLowerCase()} X:${
+    e.offsetX
+  } Y:${e.offsetY}`;
 }
 
 [...btnsBasket].forEach((btn) => btn.addEventListener("click", setBasketCount));
